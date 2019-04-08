@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        width: 1180px;
+        height: 700px;
+        background-color: #4CB4E7;
+        margin: 0 auto;
+        position: relative;  <!-- positions things inside of the wrapper relative to wrapper not window -->
+    }
+
+    nav {
+        width: 500px;
+        height: 100px;
+        background-color: #4CB4E7;
+        color: black;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .logo{
+        height:151px;
+        width: 268px;
+        position: fixed;
+        left: 45px;
+        top: -55px;
+        z-index:1;
+    }
+
+    .menu{
+        height: 70px;
+        width: 172px;
+        position: fixed;
+        top: 15px;
+        left: 378px;
+        font-size: 40px;
+        font-family: "Droid Sans", sans-serif;
+
+    }
+    .order_online{
+        height: 70px;
+        width: 268px;
+        position: fixed;
+        top: 15px;
+        left: 586px;
+        font-size: 40px;
+        font-family: "Droid Sans", sans-serif;
+
+
+    }
+    .contact{
+        height: 70px;
+        width: 172px;
+        position: fixed;
+        top: 15px;
+        left: 894px;
+        font-size: 40px;
+        font-family: "Droid Sans", sans-serif;
+
+    }
+    .home_images{
+        position: fixed;
+        top:90px;
+
+    }
+    .about{
+        height:70px;
+        width: 1180px;
+        position: fixed;
+        top: 320px;
+        background-color: #FFB660;
+        color: white;
+        padding: 5px 15px 0px 30px;
+        font-size: 36px;
+        z-index: 1;
+        font-family: "Droid Sans", sans-serif;
+
+    }
+    .home_text{
+        height: 540px;
+        width: 1180px;
+        position: fixed;
+        top: 380px;
+        background-color: #FFB660;
+        color: black;
+        padding: 10px;
+        font-family: "Droid Sans", sans-serif;
+    }
+    .happy_hour{
+        height: 172px;
+        width: 790px;
+        position: fixed;
+       left: 390px;
+        top: 500px;
+        background-color: #4CB4E7;
+        color: white;
+        padding: 3px;
+        font-family: "Droid Sans", sans-serif;
+    }
+    .happy_hour_text{
+        font-size: 15px;
+        float: left;
+        padding: 10px;
+
+    }
+.video{
+    padding: 10px 0px 0px 50px;
+}
+
+
+    a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    a:visited{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        text-decoration: none;
+        color: orange;
+    }
+
+    a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+
+</style>
+<body>
+<div class="wrapper">
+
+    <nav>
+
+        <div class="menu">
+            <a href="Menu.html"><p id="Menu">Menu</p></a>
+        </div>
+
+        <div class="order_online">
+            <a href="Order_Online.html"><p id="Order Online">Order Online</p></a>
+        </div>
+
+        <div class="contact">
+            <a href="Contact.html"><p id="Contact">Contact</p></a>
+        </div>
+
+    </nav>
+
+
+    <div class="logo">
+        <a> <img src="Kiku%20Logo.jpg"  alt="Kiku_Logo"/></a>
+    </div>
+
+    <div class="home_images">
+        <a> <img src="download.jpg" alt="img 1" width="390" height="290" /></a>
+        <a> <img src="th%20(3).jpg" alt="img 2" width="390" height="290" /></a>
+        <a> <img src="th%20(6).jpg" alt="img 3" width="390" height="290" /></a>
+    </div>
+
+    <div class="about">
+        <h2>About</h2>
+    </div>
+
+    <div class="home_text">
+        <p>Kiku Bistro offers a fun and lively atmosphere to enjoy creative, elegant sushi and other Asian fare. Head
+            Chef Patrick Liu and his wife are small business owners dedicated to the dynamic Uptown Minneapolis
+            neighborhood where they make their home. Check out the video below, and then wander over to the 'Order Online'
+            page to get your order started. Also, you can follow us on Facebook, Twitter, and YouTube by clicking on the icons on the contact page. We hope to meet you
+            soon!</p>
+
+        <div class="happy_hour">
+            <h2>Happy Hour</h2>
+            <div class="happy_hour_text">
+                <h3>Monday - Thursday</h3>
+                <p>4:30pm-7:30pm & 9:00pm-CLOSE</p>
+            </div>
+            <div class="happy_hour_text">
+                <h3>Friday</h3>
+                <p>3:00pm-7:30pm & 9:00pm-CLOSE</p>
+            </div>
+            <div class="happy_hour_text">
+                <h3>ALL DAY Saturday&Sunday</h3>
+            </div>
+        </div> <!--happy hour close-->
+
+        <div class="video">
+            <iframe width="235" height="132" src="https://www.youtube.com/embed/yjCsNsSSx3I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+
+
+
+
+</div> <!-- end of wrapper -->
+</body>
+</html>
